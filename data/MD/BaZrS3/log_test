@@ -1,0 +1,118 @@
+
+***************************************************************
+*                 Welcome to use GPUMD                        *
+*     (Graphics Processing Units Molecular Dynamics)          *
+*                    Version 3.9.5                            *
+*              This is the gpumd executable                   *
+***************************************************************
+
+
+---------------------------------------------------------------
+Compiling options:
+---------------------------------------------------------------
+
+DEBUG is off: Use different PRNG seeds for different runs.
+
+---------------------------------------------------------------
+GPU information:
+---------------------------------------------------------------
+
+number of GPUs = 1
+Device id:                   0
+    Device name:             NVIDIA A100-SXM4-40GB
+    Compute capability:      8.0
+    Amount of global memory: 39.5643 GB
+    Number of SMs:           108
+
+---------------------------------------------------------------
+Started running GPUMD.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Started initializing positions and related parameters.
+---------------------------------------------------------------
+
+Number of atoms is 40960.
+Use periodic boundary conditions along x.
+Use periodic boundary conditions along y.
+Use periodic boundary conditions along z.
+Use triclinic box.
+Box matrix h = [a, b, c] is
+    1.1424289292e+02   -1.5717297073e-05    5.7078906957e-06
+   -1.5717296713e-05    1.1213792832e+02    4.9043087795e-07
+    8.0721765377e-06    6.9357405392e-07    8.0270606414e+01
+Inverse box matrix g = inv(h) is
+    8.7532797401e-03    1.2268632080e-09   -6.2242914086e-10
+    1.2268631798e-09    8.9175893918e-03   -5.4484055781e-11
+   -8.8024774389e-10   -7.7052096720e-11    1.2457860289e-02
+Do not specify initial velocities here.
+Have no grouping method.
+There are 3 atom types.
+    8192 atoms of type 0.
+    8192 atoms of type 1.
+    24576 atoms of type 2.
+Initialized velocities with default T = 300 K.
+
+---------------------------------------------------------------
+Finished initializing positions and related parameters.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Started executing the commands in run.in.
+---------------------------------------------------------------
+
+Use the NEP4 potential with 3 atom types.
+    type 0 (Ba with Z = 56).
+    type 1 (Zr with Z = 40).
+    type 2 (S with Z = 16).
+    radial cutoff = 8 A.
+    angular cutoff = 4 A.
+    MN_radial = 150.
+    MN_angular = 20.
+    enlarged MN_radial = 188.
+    enlarged MN_angular = 25.
+    n_max_radial = 4.
+    n_max_angular = 4.
+    basis_size_radial = 8.
+    basis_size_angular = 8.
+    l_max_3body = 4.
+    l_max_4body = 2.
+    l_max_5body = 0.
+    ANN = 30-30-1.
+    number of neural network parameters = 2881.
+    number of descriptor parameters = 810.
+    total number of parameters = 3691.
+Initialized velocities with input T = 1 K.
+Use NPT ensemble for this run.
+    choose the SCR method.
+    initial temperature is 1 K.
+    final temperature is 1200 K.
+    tau_T is 100 time_step.
+    pressure_xx is 0 GPa.
+    pressure_yy is 0 GPa.
+    pressure_zz is 0 GPa.
+    pressure_yz is 0 GPa.
+    pressure_xz is 0 GPa.
+    pressure_xy is 0 GPa.
+    modulus_xx is 100 GPa.
+    modulus_yy is 100 GPa.
+    modulus_zz is 100 GPa.
+    modulus_yz is 100 GPa.
+    modulus_xz is 100 GPa.
+    modulus_xy is 100 GPa.
+    tau_p is 500 time_step.
+Time step for this run is 1 fs.
+Dump extended XYZ.
+    every 1000 steps.
+    without velocity data.
+    without force data.
+Dump thermo every 1000 steps.
+Run 20000000 steps.
+    2000000 steps completed.
+    4000000 steps completed.
+    6000000 steps completed.
+    8000000 steps completed.
+    10000000 steps completed.
+    12000000 steps completed.
