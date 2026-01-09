@@ -19,3 +19,7 @@ These are intermediate files produced by the `phonopy` software, the most common
 - phonopy.yaml: an intermediate phonopy file, included for reproducibility.
 
 - band.conf: is a configuration file, included for reproducibility.
+
+### Other datasets
+
+We can use the Materials Project API or the phonon database to access other phonon datasets. I'm not sure whether the FORCE_CONSTANTS will be available.
