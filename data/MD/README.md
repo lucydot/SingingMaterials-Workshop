@@ -12,3 +12,6 @@ The initial geometry is contained in `mode.xyz`
 
 ### Thermodynamic quantities
 This contains temperature, energy, potential energy, pressure and lattice constants. They are sampled at a specified frequency (there isn't one for every MD step).
+
+### Other datasets
+I think it would be nice to compare MD trajectories for a variety of materials and structural processed (phase transitions, melting etc). To generate other datasets I suggest we use MACE-MP-O foundational MLIP and ASE. 
