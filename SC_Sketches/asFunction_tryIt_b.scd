@@ -1,17 +1,22 @@
 ().play;
 s.boot;
 ServerOptions.outDevices;
-Server.default.options.outDevice_("External Headphones");
+Server.default.options.outDevice_("External Headphones"); // evalute these lines to set sound output preference
 Server.default.options.outDevice_("MacBook Air Speakers");
-s.reboot;
+s.reboot; //reboot for changes to take effect
 
 
-//Unfortunately GUI updates threshold value but at the moment does not re-evaluate whole code block automaticallym which is desired functionality.
-// for now change threshold values with ~thold (first variable below)
-// then re-evaluate entire code block to hear difference
+/*
+
+READ ME: Unfortunately GUI updates threshold value but at the moment does not re-evaluate whole code block automatically.
+This is desired functionality.
+For now, change threshold values with ~thold (first variable below),
+then re-evaluate entire code block to hear difference
+
+*/
 
 (
-~thold = 0.1;
+~thold = 0.1; //change values manually here and re-evalute code block to hear changes
 ~thresholder.free;
 FreqScope.new(200, 100);
 
